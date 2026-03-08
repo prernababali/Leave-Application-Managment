@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://leave-application-managment-fp.vercel.app/api'
+baseURL: 'https://leave-application-managment-dc74.vercel.app/api'
 })
 // Automatically attach JWT token to every request
 api.interceptors.request.use((config) => {
